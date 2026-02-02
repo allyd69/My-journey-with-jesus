@@ -1,0 +1,61 @@
+
+# Archives
+
+*.zip
+
+*.deb
+
+*.tgz
+
+*.tar.gz
+
+# Large binaries
+
+packer
+
+google-chrome-stable*
+
+# Encoded files
+
+enc=encoded*
+
+*encoded*
+
+# Folders that don't belong to this project
+
+claude-code/
+
+claude-quickstarts/
+
+runner-images/
+
+zphisher/
+
+thenarrowway/
+
+# Node modules app/node_modules/
+
+# Ngrok ngrok*
+
+# Ngrok
+
+ngrok*
+
+# OS files
+
+.DS_Store
+
+Thumbs.db
+
+# Misc downloads
+
+Termius*.deb
+
+packer_*.zip
+
+ngrok*.tgz
+
+# Subtitle files
+
+*.srt
+
