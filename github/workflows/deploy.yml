@@ -1,9 +1,13 @@
-on:                                                push:
+name: Deploy to GitHub Pages
+
+on:
+  push:
     branches: [ main ]
   workflow_dispatch:
 
 permissions:
-  contents: read                                   pages: write
+  contents: read
+  pages: write
   id-token: write
 
 concurrency:
@@ -19,9 +23,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
-      - name: Build
-        run: npm run build
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
